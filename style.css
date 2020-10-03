@@ -1,0 +1,310 @@
+
+/*
+	*
+	* Project Name: 	A Novel Approach to Eradicate Pre-Existing Detriments in Public Toilets to Be Incorporated with Smart Cities – Intelligent Toilets
+	* Author List: 		H.Mohammed Ameenullah, A.E Manish
+	* Filename: 		style.css
+	* Functions: 		none
+	* Global Variables:	 none
+	*
+	*
+	*/
+
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{
+  background-color: #ccc;
+}
+
+/*styling  the html page*/
+.main-wrapper{
+  margin: 0 auto;
+  width: 1000px;
+  }
+  header nav{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+  }
+header nav h2{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #111;
+  padding-top: 10px;
+}
+header nav li{
+  float:left;
+  list-style: none;
+  margin-top: -13px;
+}
+header nav li a{
+  font-family: arial;
+  font-size: 50px;
+  font-weight: 600;
+  color:#111;
+  line-height: 2px;
+  text-decoration: none;
+}
+
+.loginform
+{
+  width:400px;
+  margin: 0 auto;
+  padding-top:30px;
+}
+.main-wrapper2{
+  margin: 0 auto;
+  width: 1000px;
+}
+.main-wrapper2 h2
+{
+  margin-top: 200px;
+  text-align: center;
+  font-family: arial;
+  font-size: 30px;
+  color: #111;
+  padding-top: 10px;
+}
+.loginform input{
+  width:90%;
+  height: 40px;
+  padding:0px 5%;
+  margin-bottom: 4px;
+  border: none;
+  background-color: #fff;
+ font-family: arial;
+ font-size: 16px;
+ color: #111;
+ line-height: 40px;
+}
+.loginform button{
+ display: block;
+  width:30%;
+  height: 40px;
+  margin: 0 auto;
+  border: none;
+  background-color: #222;
+  font-family: arial;
+  font-size: 16px;
+ color: #fff;
+ cursor: pointer;
+}
+.loginform button:hover{
+   background-color: red;
+}
+.main-wrapper2 a{
+
+  display: block;
+ text-align: center;
+   width:100px;
+   height: 30px;
+   margin: 0 auto;
+   margin-top: 5px;
+   padding-top: 15px;
+   border: none;
+   background-color: #222;
+   font-family: arial;
+   font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.main-wrapper2 a:hover{
+  background-color: red;
+}
+.signup-form input {
+    width: 300px;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    margin-left: 300px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+}
+
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: red;
+
+}
+
+.home h2
+{
+  margin-top: 20px;
+  text-align: center;
+  font-family: arial;
+  font-size: 40px;
+  color: #111;
+  padding-top: 10px;
+}
+
+.home nav
+{
+  width:600px;
+  height: 60px;
+  list-style: none;
+
+}
+.home nav li{
+
+  margin-top: 50px;
+  border: none;
+  background-color: #222;
+  font-family: arial;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+
+
+}
+
+.home nav ul li a{
+  display: block;
+
+  margin-bottom: 3px;
+  padding: 20px 2px;
+  text-align: center;
+  text-decoration: none;
+   font-family: arial;
+   font-size: 20px;
+   color: white;
+
+}
+.home nav ul li a:hover{
+background-color: red;
+}
+
+
+#logout{
+  display: block;
+  float: right;
+   width:60px;
+   height: 40px;
+   margin: -50px;
+   margin-right: 30px;
+   border: none;
+   background-color: #222;
+   font-family: arial;
+   font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
