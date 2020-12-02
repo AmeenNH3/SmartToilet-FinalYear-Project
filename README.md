@@ -4,7 +4,7 @@
 Functionality of the project:
 Stores the realtime sensors data in sql database and retrives and displays them with some improved visualization.
 Technologies used:
-PHP AND SQL
+PHP AND MySQL(phpMyAdmin)
 <h1>LOGIN PAGE<h1>
 <img src="./screenshots/SMTT.jpg">
 <h1>HOME PAGE<h1>
