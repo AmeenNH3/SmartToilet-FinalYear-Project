@@ -1,5 +1,8 @@
 # SmartToilet-FinalYear-Project
-///This is my first project as a complete newbie to the coding world///
+This is my first ever project.
+
+I created this web application to diplay realtime sensor values with improved visualization.
+I'm working to re-create this project in a much better way.
 
 Functionality of the project:
 Stores the realtime sensors data in sql database and retrives and displays them with some improved visualization.
