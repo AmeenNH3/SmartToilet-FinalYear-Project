@@ -1,7 +1,7 @@
 # SmartToilet-FinalYear-Project
 This is my first ever project.
 
-I created this web application to diplay realtime sensor values with improved visualization.
+I created this web application to display realtime sensor values with improved visualization.
 I'm working to re-create this project in a much better way.
 
 Functionality of the project:
